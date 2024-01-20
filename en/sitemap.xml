@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.tanxiangyuu.github.io/authors/</loc>
+    <loc>https://tanxiangyuu.github.io/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.tanxiangyuu.github.io/pt-br/authors/"
+                href="https://tanxiangyuu.github.io/pt-br/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.tanxiangyuu.github.io/authors/"
+                href="https://tanxiangyuu.github.io/authors/"
                 />
   </url><url>
-    <loc>http://www.tanxiangyuu.github.io/categories/</loc>
+    <loc>https://tanxiangyuu.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.tanxiangyuu.github.io/pt-br/categories/"
+                href="https://tanxiangyuu.github.io/pt-br/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.tanxiangyuu.github.io/categories/"
+                href="https://tanxiangyuu.github.io/categories/"
                 />
   </url><url>
-    <loc>http://www.tanxiangyuu.github.io/</loc>
+    <loc>https://tanxiangyuu.github.io/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.tanxiangyuu.github.io/pt-br/"
+                href="https://tanxiangyuu.github.io/pt-br/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.tanxiangyuu.github.io/"
+                href="https://tanxiangyuu.github.io/"
                 />
   </url><url>
-    <loc>http://www.tanxiangyuu.github.io/series/</loc>
+    <loc>https://tanxiangyuu.github.io/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.tanxiangyuu.github.io/pt-br/series/"
+                href="https://tanxiangyuu.github.io/pt-br/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.tanxiangyuu.github.io/series/"
+                href="https://tanxiangyuu.github.io/series/"
                 />
   </url><url>
-    <loc>http://www.tanxiangyuu.github.io/tags/</loc>
+    <loc>https://tanxiangyuu.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://www.tanxiangyuu.github.io/pt-br/tags/"
+                href="https://tanxiangyuu.github.io/pt-br/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.tanxiangyuu.github.io/tags/"
+                href="https://tanxiangyuu.github.io/tags/"
                 />
   </url>
 </urlset>
