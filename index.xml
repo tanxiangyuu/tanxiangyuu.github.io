@@ -10,10 +10,24 @@
     <atom:link href="https://tanxiangyuu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://tanxiangyuu.github.io/posts/test/</link>
+      <link>https://tanxiangyuu.github.io/posts/test/test/</link>
       <pubDate>Mon, 22 Jan 2024 00:05:03 +0800</pubDate>
-      <guid>https://tanxiangyuu.github.io/posts/test/</guid>
+      <guid>https://tanxiangyuu.github.io/posts/test/test/</guid>
       <description>111111 22222 333333</description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>https://tanxiangyuu.github.io/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tanxiangyuu.github.io/archives/</guid>
+      <description>archives</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>https://tanxiangyuu.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://tanxiangyuu.github.io/search/</guid>
+      <description>search</description>
     </item>
   </channel>
 </rss>
