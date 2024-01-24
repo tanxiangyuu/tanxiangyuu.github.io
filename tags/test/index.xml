@@ -13,7 +13,14 @@
       <link>https://tanxiangyuu.github.io/posts/test/test/</link>
       <pubDate>Mon, 22 Jan 2024 00:05:03 +0800</pubDate>
       <guid>https://tanxiangyuu.github.io/posts/test/test/</guid>
-      <description>111111 22222 333333</description>
+      <description>111111 22222 333333&#xA;+++&#xA;+++</description>
+    </item>
+    <item>
+      <title>Test2</title>
+      <link>https://tanxiangyuu.github.io/posts/test/test2/</link>
+      <pubDate>Mon, 22 Jan 2024 00:05:03 +0800</pubDate>
+      <guid>https://tanxiangyuu.github.io/posts/test/test2/</guid>
+      <description>测试直接新建md文件 hugo 新建命令：hugo -F --cleanDestinationDir&#xA;hugo -F --cleanDestinationDir </description>
     </item>
   </channel>
 </rss>
