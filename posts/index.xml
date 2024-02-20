@@ -6,8 +6,15 @@
     <description>Recent content in Posts on tanxiangyu&#39;s log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jan 2024 00:05:03 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 18:48:33 +0800</lastBuildDate>
     <atom:link href="https://tanxiangyuu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prompt_engineering</title>
+      <link>https://tanxiangyuu.github.io/posts/test/prompt_engineering/</link>
+      <pubDate>Tue, 20 Feb 2024 18:48:33 +0800</pubDate>
+      <guid>https://tanxiangyuu.github.io/posts/test/prompt_engineering/</guid>
+      <description>Prompt_engineering Lilian Weng&amp;rsquo;s blog 提示工程，也被人说为是上下文学习。它的本质上是用来对齐和激活大模型的能力。它需要大量的实验和启发式方法。&#xA;她提到，迭代的prompt 和 外部工具的使用 没有那么容易被接受。&#xA;Basic Prompting Zero-Shot 就是向LLM简单的提问，向人类交流一样。&#xA;Few-shot 少样本提示包括完整的输入和输出示例，以便大模型理解问题，一般具有更加优秀的回答，能够发挥大模型的能力。但是加入示例会消耗一部分token。&#xA;prompt的格式选择、训练样本、训练样本的顺序都会对结果造成很大的影响。&#xA;有研究调查说明几个有趣的现象：1. 训练数据的label如果分布不均衡，会极大的影响模型能力。2. 最近偏差现象，模型可能会返回训练的最后的几个重复标签，最后训练标签可能权重较大。3. 大模型更加倾向产生常见的token。&#xA;Tips for Example Selection 样例选择tips：&#xA;选择一些语义上相似的样例。在embedding层使用k-nn聚类。 为了选择多样的回答，可以使用有向图，通过相邻节点选择数来打分，如果相邻节点选择的多，则打分低，选择几率下降。节点连接通过节点间的embedding cosine相似度判断。 多次采样试验中找出分歧或熵较大的示例。然后对这些示例进行注释，以用于少量提示。 Tips for Example Ordering 选择示例多样性，并且随机排列 上下文示例排列不同，结果不同。增大模型规模或者包含更多样例不能消除这种差距。 Instruction Prompting few-shot会花费token，比价昂贵。直接给出指令形式，可能比较经济。understand and follow。be aligned with human intention。&#xA;注意：1. 需要描述任务非常仔细。specific and precise 具体而精准。&#xA;避免说不要做，而说要做。 解释受众对象。 Self-Consistency Sampling Chain-of-Thought (CoT) 按步骤，短句。解决复杂问题。&#xA;Types of CoT prompts 主要有两种cot：&#xA;few-shot cot。示例：高质量推理链。cot包含在示例中，数量：4-8. zero-shot cot。 Let&amp;rsquo;s think step by step. Tips and Extensions sefl-consistency sampling 是在decoder层采样多个答案，并且最终经过投票选择最终答案。 prompt具有较高的推理复杂性可以获得更好的性能。cot分隔推理步骤时，使用换行符的效果最好。 使用复杂示例可以提高解决复杂问题的能力，但对简单问题表现不好。 few-shot，示例：使用Question: &amp;amp; Answer: 效果会更好。 在prompt中包含解释的作用可能为小到中等，非事实性的解释会造成错误的答案。 Automatic Prompt Design Augmented Language Models Retrieval Programming Language External APIs Citation Useful Resources References </description>
+    </item>
     <item>
       <title>prompt engineering</title>
       <link>https://tanxiangyuu.github.io/posts/test/test/</link>
