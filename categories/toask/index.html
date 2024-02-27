@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Posts | tanxiangyu&#39;s log</title>
+<title>toAsk | tanxiangyu&#39;s log</title>
 <meta name="keywords" content="">
-<meta name="description" content="Posts - tanxiangyu&#39;s log">
+<meta name="description" content="empty temporable">
 <meta name="author" content="tanxiangyuu">
-<link rel="canonical" href="https://tanxiangyuu.github.io/posts/">
+<link rel="canonical" href="https://tanxiangyuu.github.io/categories/toask/">
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <meta name="referrer" content="no-referrer-when-downgrade">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
@@ -20,7 +20,7 @@
 <link rel="mask-icon" href="https://tanxiangyuu.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://tanxiangyuu.github.io/posts/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://tanxiangyuu.github.io/categories/toask/index.xml">
 <noscript>
     <style>
         #theme-toggle,
@@ -57,32 +57,17 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Posts" />
+</noscript><meta property="og:title" content="toAsk" />
 <meta property="og:description" content="empty temporable" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://tanxiangyuu.github.io/posts/" /><meta property="og:image" content="https://tanxiangyuu.github.io/images/papermod-cover.png"/>
+<meta property="og:url" content="https://tanxiangyuu.github.io/categories/toask/" /><meta property="og:image" content="https://tanxiangyuu.github.io/images/papermod-cover.png"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://tanxiangyuu.github.io/images/papermod-cover.png"/>
 
-<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:title" content="toAsk"/>
 <meta name="twitter:description" content="empty temporable"/>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://tanxiangyuu.github.io/posts/"
-    }
-  ]
-}
-</script>
 </head>
 
 <body class="list" id="top">
@@ -155,10 +140,10 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://tanxiangyuu.github.io/">Home</a></div>
+<header class="page-header"><div class="breadcrumbs"><a href="https://tanxiangyuu.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://tanxiangyuu.github.io/categories/">Categories</a></div>
   <h1>
-    Posts
-    <a href="/posts/index.xml" title="RSS" aria-label="RSS">
+    toAsk
+    <a href="/categories/toask/index.xml" title="RSS" aria-label="RSS">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" height="23">
         <path d="M4 11a9 9 0 0 1 9 9" />
@@ -169,7 +154,7 @@
   </h1>
 </header>
 
-<article class="post-entry"> 
+<article class="post-entry tag-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">如何向黑客有效地提问
     </h2>
@@ -180,56 +165,6 @@
   </div>
   <footer class="entry-footer"><span title='2024-02-27 20:28:33 +0800 CST'>February 27, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;tanxiangyuu</footer>
   <a class="entry-link" aria-label="post link to 如何向黑客有效地提问" href="https://tanxiangyuu.github.io/posts/test/%E6%8F%90%E9%97%AE%E7%9A%84%E6%99%BA%E6%85%A7/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Prompt_engineering
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Lilian Weng’s blog 提示工程，也被人说为是上下文学习。它的本质上是用来对齐和激活大模型的能力。它需要大量的实验和启发式方法。
-她提到，迭代的prompt 和 外部工具的使用 没有那么容易被接受。
-Basic Prompting Zero-Shot 就是向LLM简单的提问，向人类交流一样。
-Few-shot 少样本提示包括完整的输入和输出示例，以便大模型理解问题，一般具有更加优秀的回答，能够发挥大模型的能力。但是加入示例会消耗一部分token。
-prompt的格式选择、训练样本、训练样本的顺序都会对结果造成很大的影响。
-有研究调查说明几个有趣的现象：1. 训练数据的label如果分布不均衡，会极大的影响模型能力。2. 最近偏差现象，模型可能会返回训练的最后的几个重复标签，最后训练标签可能权重较大。3. 大模型更加倾向产生常见的token。
-Tips for Example Selection 样例选择tips：
-选择一些语义上相似的样例。在embedding层使用k-nn聚类。 为了选择多样的回答，可以使用有向图，通过相邻节点选择数来打分，如果相邻节点选择的多，则打分低，选择几率下降。节点连接通过节点间的embedding cosine相似度判断。 多次采样试验中找出分歧或熵较大的示例。然后对这些示例进行注释，以用于少量提示。 Tips for Example Ordering 选择示例多样性，并且随机排列 上下文示例排列不同，结果不同。增大模型规模或者包含更多样例不能消除这种差距。 Instruction Prompting few-shot会花费token，比价昂贵。直接给出指令形式，可能比较经济。understand and follow。be aligned with human intention。
-注意：1. 需要描述任务非常仔细。specific and precise 具体而精准。
-避免说不要做，而说要做。 解释受众对象。 Self-Consistency Sampling Chain-of-Thought (CoT) 按步骤，短句。解决复杂问题。
-Types of CoT prompts 主要有两种cot：
-few-shot cot。示例：高质量推理链。cot包含在示例中，数量：4-8. zero-shot cot。 Let’s think step by step. Tips and Extensions sefl-consistency sampling 是在decoder层采样多个答案，并且最终经过投票选择最终答案。 prompt具有较高的推理复杂性可以获得更好的性能。cot分隔推理步骤时，使用换行符的效果最好。 使用复杂示例可以提高解决复杂问题的能力，但对简单问题表现不好。 few-shot，示例：使用Question: &amp; Answer: 效果会更好。 在prompt中包含解释的作用可能为小到中等，非事实性的解释会造成错误的答案。 Automatic Prompt Design Augmented Language Models Retrieval Programming Language External APIs Citation Useful Resources References </p>
-  </div>
-  <footer class="entry-footer"><span title='2024-02-20 18:48:33 +0800 CST'>February 20, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;tanxiangyuu</footer>
-  <a class="entry-link" aria-label="post link to Prompt_engineering" href="https://tanxiangyuu.github.io/posts/test/prompt_engineering/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Hugo命令记录
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>测试直接新建md文件 hugo 新建命令：hugo -F --cleanDestinationDir
-hugo -F --cleanDestinationDir </p>
-  </div>
-  <footer class="entry-footer"><span title='2024-01-22 00:05:03 +0800 CST'>January 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;tanxiangyuu</footer>
-  <a class="entry-link" aria-label="post link to Hugo命令记录" href="https://tanxiangyuu.github.io/posts/test/test2/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">prompt engineering
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>111111 22222 333333
-&#43;&#43;&#43;
-&#43;&#43;&#43;</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-01-22 00:05:03 +0800 CST'>January 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;tanxiangyuu</footer>
-  <a class="entry-link" aria-label="post link to prompt engineering" href="https://tanxiangyuu.github.io/posts/test/test/"></a>
 </article>
     </main>
     
