@@ -10,9 +10,9 @@
     <atom:link href="https://tanxiangyuu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo命令记录</title>
-      <link>https://tanxiangyuu.github.io/posts/test/test2/</link>
+      <link>https://tanxiangyuu.github.io/posts/test/hugo%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Mon, 22 Jan 2024 00:05:03 +0800</pubDate>
-      <guid>https://tanxiangyuu.github.io/posts/test/test2/</guid>
+      <guid>https://tanxiangyuu.github.io/posts/test/hugo%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</guid>
       <description>测试直接新建md文件 hugo 新建命令：hugo -F --cleanDestinationDir&#xA;hugo -F --cleanDestinationDir </description>
     </item>
   </channel>

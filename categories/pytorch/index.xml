@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pytorch on tanxiangyu&#39;s log</title>
+    <link>https://tanxiangyuu.github.io/categories/pytorch/</link>
+    <description>Recent content in pytorch on tanxiangyu&#39;s log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Feb 2024 21:28:33 +0800</lastBuildDate>
+    <atom:link href="https://tanxiangyuu.github.io/categories/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyTorch张量基础教程总结</title>
+      <link>https://tanxiangyuu.github.io/posts/test/pytorch/</link>
+      <pubDate>Tue, 27 Feb 2024 21:28:33 +0800</pubDate>
+      <guid>https://tanxiangyuu.github.io/posts/test/pytorch/</guid>
+      <description>本文是针对PyTorch中的张量（Tensors）的一个基础教程，它详细介绍了张量的定义、特性、以及如何在PyTorch中使用张量进行基本操作。张量是PyTorch中进行科学计算的基础，它们可以视为一个高维数组或矩阵。本教程的主要内容包括：&#xA;张量初始化 从数据直接创建张量：可以直接从数据创建张量，PyTorch会自动推断数据类型。 从NumPy数组创建：可以使用torch.from_numpy()从NumPy数组创建张量。 通过已有的张量创建：可以通过已有的张量来创建新的张量。这种方法会默认重用输入张量的属性（如数据类型），除非显式地进行更改。 使用随机或常数值：torch.rand()创建随机初始化的张量，torch.zeros()和torch.ones()分别创建全0或全1的张量。 张量属性 张量属性：张量的属性包括形状（shape）、数据类型（dtype）和存储的设备（device，如CPU或GPU）。 张量操作 索引和切片：可以使用标准的Python索引和切片操作来访问张量的部分。 张量重塑：reshape可以改变张量的形状而不改变其数据。 张量合并：torch.cat可以用来在给定维度上合并张量序列。 张量乘法：介绍了元素乘法（*或torch.mul）和矩阵乘法（@或torch.matmul）。 张量与NumPy之间的转换 张量可以很容易地与NumPy数组相互转换，使用numpy()方法从张量转换为NumPy数组，使用torch.from_numpy()从NumPy数组转换为张量。这两种类型的转换是共享底层内存的，因此修改其中一个会影响另一个。 自动微分 自动微分：PyTorch中的自动微分是通过autograd模块实现的，它提供了张量上所有操作的自动微分。这对于深度学习训练中的梯度计算非常有用。 运行在GPU上 张量可以被移到GPU上：使用.to方法可以将张量移动到任何设备上，这对于加速计算非常重要。 本教程适合初学者，通过详细的示例和解释，帮助读者理解和掌握如何在PyTorch中有效地使用张量进行数据操作和计算。</description>
+    </item>
+  </channel>
+</rss>
