@@ -171,6 +171,41 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">快速选择排序
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>题目：假设有一组无序的数字，找到其中排名第 k 位的数字。
+快排 快速排序是一种优秀的排序算法。 C&#43;&#43; STL 的 sort，使用的就是“快速排序 &#43; 插入排序 &#43; 堆排序”的方式。
+快排的核心 找准基准值的位置 通过的是partition操作，将数组分为两部分，小于基准值的放在左边，大于基准值的放在右边。 然后通过递归，对两边继续进行partition操作。 问题
+求排名为k的元素，并不需要对整个数组进行排序。 时间复杂度不稳定，最坏的情况会达到O(n^2)。 快速选择排序 针对第一个问题：使用快速选择排序方法解决。在不对数据整体进行排序的前提下，快速找到排名第 k 位的元素，而且时间复杂度还能优化到 O(n)。
+快速选择的核心 当需要快速找到一个元素 X，并且使得小于 X 的元素数量是 k-1 个时，那 X 就是要查找的排名第 k 位的元素了。 没有必要对整个数组进行排序。 依旧使用partition操作进行实现。 在partition操作中，将基准值排名ind和 k 进行比较。
+如果 ind 正好等于 k，那说明当前的基准值，就是要找的排名第 k 位的元素； 如果 ind 大于 k，说明排名第 k 位的元素在基准值的前面。接下来，要解决的问题就是，在基准值的前面查找排名第 k 位的元素； 如果 ind 小于 k ，就说明排名第 k 位的元素在基准值的后面，并且，当前包括基准值在内的 ind 个元素，都是小于基准值的元素。那么，问题就转化成了，在基准值的后面查找排名第 k - ind 位的元素。 三种快排的优化 针对第二个问题，稳定系统运行时间。...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-11 23:54:33 +0800 CST'>March 11, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;tanxiangyuu</footer>
+  <a class="entry-link" aria-label="post link to 快速选择排序" href="https://tanxiangyuu.github.io/posts/test/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">RAG
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>RAG-Retrieval Augmented Generation 1. RAG介绍 RAG，检索增强生成技术，是一种基于检索的生成模型，它结合了生成模型的灵活性和检索模型的效率。RAG通过将生成模型与检索模型相结合，实现了高效的文本生成。 目的：解决LLM的幻觉情况，加深专业领域深度，更新知识库。 RAG的基本结构：## RAG-Retrieval Augmented Generation
+1. RAG介绍 RAG，检索增强生成技术，是一种基于检索的生成模型，它结合了生成模型的灵活性和检索模型的效率。RAG通过将生成模型与检索模型相结合，实现了高效的文本生成。 目的：解决LLM的幻觉情况，加深专业领域深度，更新知识库。
+最小RAG的基本结构：
+向量化模块，将文档（文本）片段向量化。 文档加载和切分模块，加载文档和切分文档片段。 数据库模块，存放切分好的文档片段及其对应的向量表示 检索模块，根据query检索相应的文档片段。 大模型模块，根据检索出的文档来回答query 生成answer。 RAG的流程 ：
+索引：将文档库分割成较短的chunk，并且通过编码器构建向量索引。 检索：根据query和chunks的相似度检索相关文档片段。 生成：通过检索到的文档，作为上下文条件，生成answer。 2. 各个模块的code demo code 待补充。。。
+3. 总结 一个最小的RAG包括：
+向量化模块 文档加载和切分模块 数据库 检索模块–向量 大模型模块 4. 论文 [1] RAG: Retrieval Augmented Generation for Dense Text-to-Text Pre-training. </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-11 21:15:23 +0800 CST'>March 11, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;tanxiangyuu</footer>
+  <a class="entry-link" aria-label="post link to RAG" href="https://tanxiangyuu.github.io/posts/test/rag/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">PyTorch张量基础教程总结
     </h2>
   </header>
@@ -217,33 +252,12 @@ few-shot cot。示例：高质量推理链。cot包含在示例中，数量：4-
   <footer class="entry-footer"><span title='2024-02-20 18:48:33 +0800 CST'>February 20, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;tanxiangyuu</footer>
   <a class="entry-link" aria-label="post link to Prompt_engineering" href="https://tanxiangyuu.github.io/posts/test/prompt_engineering/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Hugo命令记录
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>测试直接新建md文件 hugo 新建命令：hugo -F --cleanDestinationDir
-hugo -F --cleanDestinationDir </p>
-  </div>
-  <footer class="entry-footer"><span title='2024-01-22 00:05:03 +0800 CST'>January 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;tanxiangyuu</footer>
-  <a class="entry-link" aria-label="post link to Hugo命令记录" href="https://tanxiangyuu.github.io/posts/test/hugo%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">prompt engineering
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>111111 22222 333333
-&#43;&#43;&#43;
-&#43;&#43;&#43;</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-01-22 00:05:03 +0800 CST'>January 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;tanxiangyuu</footer>
-  <a class="entry-link" aria-label="post link to prompt engineering" href="https://tanxiangyuu.github.io/posts/test/test/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://tanxiangyuu.github.io/posts/page/2/">Next&nbsp;2/2&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">
