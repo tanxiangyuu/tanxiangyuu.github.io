@@ -6,13 +6,20 @@
     <description>Recent content in 算法 on tanxiangyu&#39;s log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2024 23:54:33 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 13 Mar 2024 00:58:19 +0800</lastBuildDate>
     <atom:link href="https://tanxiangyuu.github.io/categories/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>堆排序</title>
+      <link>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Wed, 13 Mar 2024 00:58:19 +0800</pubDate>
+      <guid>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%A0%86%E6%8E%92%E5%BA%8F/</guid>
+      <description>对于堆来说，有几个重要的点，虽然简单，但是需要理解，才能理解堆&#xA;完全二叉树 堆是一个完全二叉树 可以分成，大顶堆和小顶堆 大顶堆：父节点大于等于子节点 小顶堆：父节点小于等于子节点 堆的存储：数组形式&amp;ndash;利用完全二叉树的性质。 </description>
+    </item>
+    <item>
       <title>快速选择排序</title>
-      <link>https://tanxiangyuu.github.io/posts/test/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</link>
+      <link>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Mon, 11 Mar 2024 23:54:33 +0800</pubDate>
-      <guid>https://tanxiangyuu.github.io/posts/test/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</guid>
+      <guid>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</guid>
       <description>题目：假设有一组无序的数字，找到其中排名第 k 位的数字。&#xA;快排 快速排序是一种优秀的排序算法。&#xA;C++ STL 的 sort，使用的就是“快速排序 + 插入排序 + 堆排序”的方式。&#xA;快排的核心 找准基准值的位置&#xA;通过的是partition操作，将数组分为两部分，小于基准值的放在左边，大于基准值的放在右边。&#xA;然后通过递归，对两边继续进行partition操作。&#xA;问题&#xA;求排名为k的元素，并不需要对整个数组进行排序。 时间复杂度不稳定，最坏的情况会达到O(n^2)。 快速选择排序 针对第一个问题：使用快速选择排序方法解决。在不对数据整体进行排序的前提下，快速找到排名第 k 位的元素，而且时间复杂度还能优化到 O(n)。&#xA;快速选择的核心 当需要快速找到一个元素 X，并且使得小于 X 的元素数量是 k-1 个时，那 X 就是要查找的排名第 k 位的元素了。&#xA;没有必要对整个数组进行排序。&#xA;依旧使用partition操作进行实现。 在partition操作中，将基准值排名ind和 k 进行比较。&#xA;如果 ind 正好等于 k，那说明当前的基准值，就是要找的排名第 k 位的元素； 如果 ind 大于 k，说明排名第 k 位的元素在基准值的前面。接下来，要解决的问题就是，在基准值的前面查找排名第 k 位的元素； 如果 ind 小于 k ，就说明排名第 k 位的元素在基准值的后面，并且，当前包括基准值在内的 ind 个元素，都是小于基准值的元素。那么，问题就转化成了，在基准值的后面查找排名第 k - ind 位的元素。 三种快排的优化 针对第二个问题，稳定系统运行时间。</description>
     </item>
   </channel>
