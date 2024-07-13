@@ -4,6 +4,11 @@
     <title>hugo on tanxiangyu&#39;s log</title>
     <link>https://tanxiangyuu.github.io/tags/hugo/</link>
     <description>Recent content in hugo on tanxiangyu&#39;s log</description>
+    <image>
+      <title>tanxiangyu&#39;s log</title>
+      <url>https://tanxiangyuu.github.io/images/papermod-cover.png</url>
+      <link>https://tanxiangyuu.github.io/images/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 Jan 2024 00:05:03 +0800</lastBuildDate>
@@ -13,7 +18,8 @@
       <link>https://tanxiangyuu.github.io/posts/test/hugo%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Mon, 22 Jan 2024 00:05:03 +0800</pubDate>
       <guid>https://tanxiangyuu.github.io/posts/test/hugo%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/</guid>
-      <description>测试直接新建md文件 hugo 新建命令：hugo -F --cleanDestinationDir&#xA;hugo -F --cleanDestinationDir hugo 新建文档命令：hugo new dir/name.md</description>
+      <description>测试直接新建md文件 hugo 新建命令：hugo -F --cleanDestinationDir
+hugo -F --cleanDestinationDir hugo 新建文档命令：hugo new dir/name.md</description>
     </item>
   </channel>
 </rss>

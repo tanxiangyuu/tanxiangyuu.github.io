@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://tanxiangyuu.github.io/sitemap.xml

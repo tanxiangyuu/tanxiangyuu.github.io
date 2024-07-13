@@ -4,6 +4,11 @@
     <title>堆排序 on tanxiangyu&#39;s log</title>
     <link>https://tanxiangyuu.github.io/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
     <description>Recent content in 堆排序 on tanxiangyu&#39;s log</description>
+    <image>
+      <title>tanxiangyu&#39;s log</title>
+      <url>https://tanxiangyuu.github.io/images/papermod-cover.png</url>
+      <link>https://tanxiangyuu.github.io/images/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 13 Mar 2024 00:58:19 +0800</lastBuildDate>
@@ -13,7 +18,8 @@
       <link>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Wed, 13 Mar 2024 00:58:19 +0800</pubDate>
       <guid>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%A0%86%E6%8E%92%E5%BA%8F/</guid>
-      <description>对于堆来说，有几个重要的点，虽然简单，但是需要理解，才能理解堆&#xA;完全二叉树 堆是一个完全二叉树 可以分成，大顶堆和小顶堆 大顶堆：父节点大于等于子节点 小顶堆：父节点小于等于子节点 堆的存储：数组形式&amp;ndash;利用完全二叉树的性质。 </description>
+      <description>对于堆来说，有几个重要的点，虽然简单，但是需要理解，才能理解堆
+完全二叉树 堆是一个完全二叉树 可以分成，大顶堆和小顶堆 大顶堆：父节点大于等于子节点 小顶堆：父节点小于等于子节点 堆的存储：数组形式&amp;ndash;利用完全二叉树的性质。 </description>
     </item>
   </channel>
 </rss>

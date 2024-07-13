@@ -4,6 +4,11 @@
     <title>test on tanxiangyu&#39;s log</title>
     <link>https://tanxiangyuu.github.io/tags/test/</link>
     <description>Recent content in test on tanxiangyu&#39;s log</description>
+    <image>
+      <title>tanxiangyu&#39;s log</title>
+      <url>https://tanxiangyuu.github.io/images/papermod-cover.png</url>
+      <link>https://tanxiangyuu.github.io/images/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 Jan 2024 00:05:03 +0800</lastBuildDate>
@@ -13,7 +18,9 @@
       <link>https://tanxiangyuu.github.io/posts/test/test/</link>
       <pubDate>Mon, 22 Jan 2024 00:05:03 +0800</pubDate>
       <guid>https://tanxiangyuu.github.io/posts/test/test/</guid>
-      <description>111111 22222 333333&#xA;+++&#xA;+++</description>
+      <description>111111 22222 333333
++++
++++</description>
     </item>
   </channel>
 </rss>
