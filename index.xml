@@ -23,20 +23,15 @@ huggingface-cli命令下载。
 1 huggingface-cli download microsoft/phi-2 --local-dir=./models/ --cache-dir=./cache --local-dir-use-symlinks=False --resume-download --local-dir 和下载使用的缓存目录 --cache-dir都设置到了当前目录下，开启 --local-dir-use-symlinks=False 可以让下载的文件后续都以非软链文件保存，方便后续保存或者上传服务器。最后，添加--resume-download 可以确保始终接着之前的下载进度继续，如果下载进度有中断。
 HF_TRANSFER使用
 是 hugging face 官方专门为提高下载速度基于 Rust 开发的一个模块，开启后在带宽充足的机器上可以跑到 500MB/s。 但是有非常明显的缺点：
-HF_TRANSFER不可断点重续!!!具体说明文档 太容易断了！ ​	启用方法：export HF_HUB_ENABLE_HF_TRANSFER=1
+HF_TRANSFER不可断点重续!!!具体说明文档 太容易断了！ 启用方法：export HF_HUB_ENABLE_HF_TRANSFER=1
 镜像网站使用
 https://hf-mirror.com，设置
 1 export HF_ENDPOINT=&amp;#34;https://hf-mirror.com&amp;#34; 使用摩搭社区下载
 缺点：模型更新有延迟。
 2. 折腾 hf 下载 使用huggingface-cli+HF_TRANSFER下载。
 具体参数：
---repo-type：下载类型，
-&amp;lt;model or dataset name&amp;gt;：模型或者数据集名称，
---local-dir：本地位置，
---cache-dir：缓存位置，
---local-dir-use-symlinks：是否使用软链接。
---resume-download：断点续传。
-环境设置：</description>
+--repo-type：下载类型， &amp;lt;model or dataset name&amp;gt;：模型或者数据集名称， --local-dir：本地位置， --cache-dir：缓存位置， --local-dir-use-symlinks：是否使用软链接。 --resume-download：断点续传。 环境设置：
+export HF_ENDPOINT=&amp;quot;https://hf-mirror.</description>
     </item>
     <item>
       <title>Frp</title>
