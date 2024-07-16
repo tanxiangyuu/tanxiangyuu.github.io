@@ -9,23 +9,34 @@
     <lastBuildDate>Tue, 16 Jul 2024 16:04:34 +0800</lastBuildDate>
     <atom:link href="https://tanxiangyuu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>从 huggingface 下载文件到公共服务器上</title>
+      <title>从 huggingface 下载文件到公共服务器</title>
       <link>https://tanxiangyuu.github.io/posts/linux/hf_download/</link>
       <pubDate>Tue, 16 Jul 2024 16:04:34 +0800</pubDate>
       <guid>https://tanxiangyuu.github.io/posts/linux/hf_download/</guid>
-      <description>1. 怎么下载更快 因为内地特殊原因，从 hf 上下载模式或者数据集速度不堪入目。很多佬都发过提速方法，这里稍微总结一下。 来源：苏洋博客、如何快速下载huggingface大模型
+      <description>1. 怎么下载更快 因为内地特殊原因，从 hf 上下载模式或者数据集速度不堪入目。很多佬都发过提速方法，这里稍微总结一下。
+来源：
+苏洋博客
+如何快速下载huggingface大模型
 huggingface-cli命令下载。
-如huggingface-cli download microsoft/phi-2，但是非常不建议使用这个默认命令下载，会很慢，而且会下在根目录的缓存文件中，并且使用 git blob 来保存模型文件，会比原本模型更大。
+1 huggingface-cli download microsoft/phi-2 但是非常不建议使用这个默认命令下载，会很慢，而且会下在根目录的缓存文件中，并且使用 git blob 来保存模型文件，会比原本模型更大。
 可以在这个命令基础上，使用和指定一些参数来完成高效下载。 比如：
-huggingface-cli download microsoft/phi-2 --local-dir=./models/ --cache-dir=./cache --local-dir-use-symlinks=False --resume-download
---local-dir 和下载使用的缓存目录 --cache-dir都设置到了当前目录下，开启 --local-dir-use-symlinks=False 可以让下载的文件后续都以非软链文件保存，方便后续保存或者上传服务器。最后，添加--resume-download 可以确保始终接着之前的下载进度继续，如果下载进度有中断。
-HF_TRANSFER使用 是 hugging face 官方专门为提高下载速度基于 Rust 开发的一个模块，开启后在带宽充足的机器上可以跑到 500MB/s。 但是有非常明显的缺点：
-HF_TRANSFER**不可断点重续！！！**具体说明文档 太容易断了！ ​	启用方法：export HF_HUB_ENABLE_HF_TRANSFER=1
-镜像网站使用 https://hf-mirror.com，设置export HF_ENDPOINT=&amp;quot;https://hf-mirror.com&amp;quot; 使用摩搭社区下载 ​	缺点：模型更新有延迟。
+1 huggingface-cli download microsoft/phi-2 --local-dir=./models/ --cache-dir=./cache --local-dir-use-symlinks=False --resume-download --local-dir 和下载使用的缓存目录 --cache-dir都设置到了当前目录下，开启 --local-dir-use-symlinks=False 可以让下载的文件后续都以非软链文件保存，方便后续保存或者上传服务器。最后，添加--resume-download 可以确保始终接着之前的下载进度继续，如果下载进度有中断。
+HF_TRANSFER使用
+是 hugging face 官方专门为提高下载速度基于 Rust 开发的一个模块，开启后在带宽充足的机器上可以跑到 500MB/s。 但是有非常明显的缺点：
+HF_TRANSFER不可断点重续!!!具体说明文档 太容易断了！ ​	启用方法：export HF_HUB_ENABLE_HF_TRANSFER=1
+镜像网站使用
+https://hf-mirror.com，设置
+1 export HF_ENDPOINT=&amp;#34;https://hf-mirror.com&amp;#34; 使用摩搭社区下载
+缺点：模型更新有延迟。
 2. 折腾 hf 下载 使用huggingface-cli+HF_TRANSFER下载。
 具体参数：
-`--repo-type`：下载类型， `&amp;lt;model or dataset name&amp;gt;`：模型或者数据集名称， `--local-dir`：本地位置， `--cache-dir`：缓存位置， `--local-dir-use-symlinks`：是否使用软链接。 `--resume-download`：断点续传。 环境设置：
-`export HF_ENDPOINT=&amp;quot;https://hf-mirror.com&amp;quot;` `export HF_HUB_ENABLE_HF_TRANSFER=1` 3. bash 脚本自动配置环境和下载 使用方式示例：</description>
+--repo-type：下载类型，
+&amp;lt;model or dataset name&amp;gt;：模型或者数据集名称，
+--local-dir：本地位置，
+--cache-dir：缓存位置，
+--local-dir-use-symlinks：是否使用软链接。
+--resume-download：断点续传。
+环境设置：</description>
     </item>
     <item>
       <title>Frp</title>
