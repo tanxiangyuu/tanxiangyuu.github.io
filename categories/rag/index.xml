@@ -10,9 +10,9 @@
     <atom:link href="https://tanxiangyuu.github.io/categories/rag/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RAG</title>
-      <link>https://tanxiangyuu.github.io/posts/test/rag/</link>
+      <link>https://tanxiangyuu.github.io/posts/llm/rag/</link>
       <pubDate>Mon, 11 Mar 2024 21:15:23 +0800</pubDate>
-      <guid>https://tanxiangyuu.github.io/posts/test/rag/</guid>
+      <guid>https://tanxiangyuu.github.io/posts/llm/rag/</guid>
       <description>RAG-Retrieval Augmented Generation 1. RAG介绍 RAG，检索增强生成技术，是一种基于检索的生成模型，它结合了生成模型的灵活性和检索模型的效率。RAG通过将生成模型与检索模型相结合，实现了高效的文本生成。
 目的：解决LLM的幻觉情况，加深专业领域深度，更新知识库。
 最小RAG的基本结构：

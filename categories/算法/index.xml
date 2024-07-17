@@ -10,17 +10,17 @@
     <atom:link href="https://tanxiangyuu.github.io/categories/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>堆排序</title>
-      <link>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
+      <link>https://tanxiangyuu.github.io/posts/algo/%E5%A0%86%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Wed, 13 Mar 2024 00:58:19 +0800</pubDate>
-      <guid>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%A0%86%E6%8E%92%E5%BA%8F/</guid>
+      <guid>https://tanxiangyuu.github.io/posts/algo/%E5%A0%86%E6%8E%92%E5%BA%8F/</guid>
       <description>对于堆来说，有几个重要的点，虽然简单，但是需要理解，才能理解堆
 完全二叉树 堆是一个完全二叉树 可以分成，大顶堆和小顶堆 大顶堆：父节点大于等于子节点 小顶堆：父节点小于等于子节点 堆的存储：数组形式&amp;ndash;利用完全二叉树的性质。 </description>
     </item>
     <item>
       <title>快速选择排序</title>
-      <link>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</link>
+      <link>https://tanxiangyuu.github.io/posts/algo/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</link>
       <pubDate>Mon, 11 Mar 2024 23:54:33 +0800</pubDate>
-      <guid>https://tanxiangyuu.github.io/posts/%E7%AE%97%E6%B3%95/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</guid>
+      <guid>https://tanxiangyuu.github.io/posts/algo/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</guid>
       <description>题目：假设有一组无序的数字，找到其中排名第 k 位的数字。
 快排 快速排序是一种优秀的排序算法。
 C++ STL 的 sort，使用的就是“快速排序 + 插入排序 + 堆排序”的方式。
