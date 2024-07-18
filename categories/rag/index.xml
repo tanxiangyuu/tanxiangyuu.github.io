@@ -13,13 +13,7 @@
       <link>https://tanxiangyuu.github.io/posts/llm/rag/</link>
       <pubDate>Mon, 11 Mar 2024 21:15:23 +0800</pubDate>
       <guid>https://tanxiangyuu.github.io/posts/llm/rag/</guid>
-      <description>RAG-Retrieval Augmented Generation 1. RAG介绍 RAG，检索增强生成技术，是一种基于检索的生成模型，它结合了生成模型的灵活性和检索模型的效率。RAG通过将生成模型与检索模型相结合，实现了高效的文本生成。
-目的：解决LLM的幻觉情况，加深专业领域深度，更新知识库。
-最小RAG的基本结构：
-向量化模块，将文档（文本）片段向量化。 文档加载和切分模块，加载文档和切分文档片段。 数据库模块，存放切分好的文档片段及其对应的向量表示 检索模块，根据query检索相应的文档片段。 大模型模块，根据检索出的文档来回答query 生成answer。 RAG的流程 ：
-索引：将文档库分割成较短的chunk，并且通过编码器构建向量索引。 检索：根据query和chunks的相似度检索相关文档片段。 生成：通过检索到的文档，作为上下文条件，生成answer。 2. 各个模块的code demo code 待补充。。。
-3. 总结 一个最小的RAG包括：
-向量化模块 文档加载和切分模块 数据库 检索模块–向量 大模型模块 4. 论文 [1] RAG: Retrieval Augmented Generation for Dense Text-to-Text Pre-training. </description>
+      <description>RAG-Retrieval Augmented Generation 1. RAG介绍 RAG，检索增强生成技术，是一种基于检索的生成模型，它结合了生成模型的灵活性和检索模型的效率。RAG通过将生成模型与检索模型相结合，实现了高效的文本生成。&#xA;目的：解决LLM的幻觉情况，加深专业领域深度，更新知识库。&#xA;最小RAG的基本结构：&#xA;向量化模块，将文档（文本）片段向量化。 文档加载和切分模块，加载文档和切分文档片段。 数据库模块，存放切分好的文档片段及其对应的向量表示 检索模块，根据query检索相应的文档片段。 大模型模块，根据检索出的文档来回答query 生成answer。 RAG的流程 ：&#xA;索引：将文档库分割成较短的chunk，并且通过编码器构建向量索引。 检索：根据query和chunks的相似度检索相关文档片段。 生成：通过检索到的文档，作为上下文条件，生成answer。 2. 各个模块的code demo code 待补充。。。&#xA;3. 总结 一个最小的RAG包括：&#xA;向量化模块 文档加载和切分模块 数据库 检索模块–向量 大模型模块 4. 论文 [1] RAG: Retrieval Augmented Generation for Dense Text-to-Text Pre-training. </description>
     </item>
   </channel>
 </rss>
