@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on tanxiangyu&#39;s log</title>
-    <link>https://tanxiangyuu.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on tanxiangyu&#39;s log</description>
+    <title>bash on tanxiangyu&#39;s log</title>
+    <link>https://tanxiangyuu.github.io/tags/bash/</link>
+    <description>Recent content in bash on tanxiangyu&#39;s log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 Jan 2024 00:05:03 +0800</lastBuildDate>
-    <atom:link href="https://tanxiangyuu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tanxiangyuu.github.io/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>命令执行方式-个人向</title>
       <link>https://tanxiangyuu.github.io/posts/tech/%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%96%B9%E5%BC%8F/</link>
